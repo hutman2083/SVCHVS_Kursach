@@ -1,0 +1,173 @@
+body{
+    margin-top: 4px;
+    margin-left: 15px;
+    background-color: black;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Nova Cut', cursive;
+}
+
+.all_blocks{
+    width: 1440px;
+    height: auto;
+    margin-top: 0px;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.first_block .topblock img{
+    padding-left: 0px;
+    width: 490px;
+    height: 100px;
+}
+.first_block .topblock {
+    display: grid;
+    grid-template-columns: 822px 99px 130px 70px 180px 0px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.first_block .topblock p{
+    padding-top: 18px;
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+}
+
+.first_block .topblock a{
+    text-decoration: none;
+    color: white;
+}
+
+.first_block .mainblock{
+    display: grid;
+    grid-template-columns: 394px 642px 400px;
+}
+
+.first_block .mainblock .left_image img{
+    width: 394px;
+    height: 2631px;
+}
+.first_block .mainblock .main_info{
+    width: 642px;
+    height: auto;
+    background: linear-gradient(0deg, rgba(137, 126, 126, 0.2), rgba(137, 126, 126, 0.2)), #000000;
+}
+
+.first_block .mainblock .main_info #p1{
+    width: 556px;
+    height: 216px;
+    padding-left: 46px;
+    font-size: 40px;
+    color: white;
+    margin-top: 23px;
+    line-height: 55px;
+    margin-bottom: 17px;
+}
+
+.first_block .mainblock .main_info .Billy
+{
+    position: relative;
+    font-size: 14px;
+    top: -242px;
+    left: -130px;
+    letter-spacing: 0px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.first_block .mainblock .main_info #img1{
+    width: 524px;
+    height: 390px;
+    padding-top: 16px;
+    padding-right: 0px;
+}
+
+.first_block .mainblock .main_info .Danny
+{
+    position: relative;
+    font-size: 14px;
+    top: -255px;
+    left: 140px;
+    letter-spacing: 0px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.first_block .mainblock .main_info .Mark
+{
+    position: relative;
+    font-size: 14px;
+    top: -72px;
+    left: -130px;
+    letter-spacing: 0px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.first_block .mainblock .main_info .Van
+{
+    position: relative;
+    font-size: 14px;
+    top: -90px;
+    left: 140px;
+    letter-spacing: 0px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.first_block .mainblock .main_info #p2
+{
+    width: 556px;
+    height: 216px;
+    padding-left: 43px;
+    font-size: 40px;
+    color: white;
+    margin-top: -70px;
+    line-height: 55px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+    height:115px;
+}
+
+.first_block .mainblock .main_info #hr1{
+    margin-bottom: 32px;
+    width: 533px;
+    background-color: red;
+    border-color: red;
+    padding-left: 5px;
+    margin-left: 40px;
+}
+
+.first_block .mainblock .main_info #hr2{
+    margin-bottom: 32px;
+    width: 518px;
+    background-color: red;
+    border-color: red;
+    margin-left: 60px;
+}
+
+.first_block .mainblock .main_info #p3
+{
+    width: 510px;
+    height: 216px;
+    padding-left: 55px;
+    font-size: 40px;
+    color: white;
+    margin-top: -17px;
+    line-height: 55px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+    height:115px;
+}
+
+.first_block .mainblock .main_info #hr3{
+    margin-top: 70px;
+    margin-bottom: 34px;
+    width: 518px;
+    background-color: red;
+    border-color: red;
+    margin-left: 60px;
+}
