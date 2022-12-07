@@ -1,5 +1,5 @@
 body{
-    margin-top: 4px;
+    margin-top: 0px;
     margin-left: 15px;
     background-color: black;
     font-family: 'Barlow', sans-serif;
@@ -125,7 +125,7 @@ body{
     color: white;
     margin-top: -70px;
     line-height: 55px;
-    word-spacing: 0px;
+    word-spacing: -1px;
     letter-spacing: 0px;
     margin-bottom: 0px;
     height:115px;
@@ -138,6 +138,7 @@ body{
     border-color: red;
     padding-left: 5px;
     margin-left: 40px;
+    
 }
 
 .first_block .mainblock .main_info #hr2{
@@ -152,22 +153,141 @@ body{
 {
     width: 510px;
     height: 216px;
-    padding-left: 55px;
+    padding-left: 65px;
     font-size: 40px;
     color: white;
     margin-top: -17px;
     line-height: 55px;
-    word-spacing: 0px;
+    word-spacing: 1px;
     letter-spacing: 0px;
     margin-bottom: 0px;
     height:115px;
 }
 
 .first_block .mainblock .main_info #hr3{
-    margin-top: 70px;
+    margin-top: 65px;
     margin-bottom: 34px;
     width: 518px;
     background-color: red;
     border-color: red;
     margin-left: 60px;
+}
+
+.first_block .mainblock .main_info #img2{
+    width: 520px;
+    height: 290px;
+    padding-top: 0px;
+    padding-right: 8px;
+}
+
+.first_block .mainblock .main_info #p4{
+    width: 520px;
+    height: 216px;
+    padding-left: 60px;
+    font-size: 40px;
+    color: white;
+    line-height: 55px;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+    height:115px;
+    word-spacing: 0px;
+}
+
+.first_block .mainblock .main_info #hr4{
+    margin-top: 65px;
+    margin-bottom: 26px;
+    width: 518px;
+    background-color: red;
+    border-color: red;
+    margin-left: 60px;
+}
+
+.first_block .mainblock .main_info #img3{
+    width: 530px;
+    height: 370px;
+    padding-top: 0px;
+    padding-right: 2px;
+}
+
+.first_block .mainblock .main_info #p5{
+    width: 570px;
+    height: 216px;
+    padding-left: 40px;
+    font-size: 40px;
+    color: white;
+    line-height: 52px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    height:115px;
+    word-spacing: 0px;
+}
+
+.first_block .mainblock .main_info #img4{
+    width: 640px;
+    height: 445px;
+    padding-top: 0px;
+    padding-right: 8px;
+    
+}
+
+.second_block{
+    width: 1440px;
+    height: auto;
+    margin-top: 0px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.second_block #p6{
+    font-size: 60px;
+    color: white;
+    margin-top: 34px;
+    margin-left: 33px;
+}
+
+.second_block #hr5{
+    margin-top: -33px;
+    background-color: red;
+    border-color: red;
+    width: 1438px;
+    margin-left: -4px;
+    height: 2px;
+}
+
+.second_block #p7{
+    font-size: 42px;
+    color: white;
+    padding-left: 48px;
+    padding-top: 8px;
+}
+
+.second_block .scroll_top{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100px;
+    height: 600px;
+    transform: rotate(-90deg);
+    color: white;
+}
+
+.second_block .scroll_top .Slave{
+    transform: rotate(90deg) translateY(-100px);
+}
+
+.second_block .scroll_top .Boy{
+    transform: rotate(90deg) translateY(-100px);
+}
+
+.second_block .scroll_top .Dungeon{
+    transform: rotate(90deg) translateY(-100px);
+}
+
+.second_block .scroll_top .Master{
+    transform: rotate(90deg) translateY(-100px);
+}
+
+.second_block .scroll_top .Boss{
+    transform: rotate(90deg) translateY(-100px);
 }
