@@ -266,28 +266,63 @@ body{
 .second_block .scroll_top{
     overflow-x: hidden;
     overflow-y: auto;
-    width: 100px;
-    height: 600px;
-    transform: rotate(-90deg);
+    width: 400px;
+    height: 1384px;
+    transform: rotate(-90deg) translateX(540px);
     color: white;
+    margin-left: 495px;
+    margin-top: 0px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
 }
 
 .second_block .scroll_top .Slave{
-    transform: rotate(90deg) translateY(-100px);
+    transform: rotate(90deg) translateY(19px) translateX(0px);
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.second_block .scroll_top .Slave #img5{
+    padding-left: 50px;
 }
 
 .second_block .scroll_top .Boy{
-    transform: rotate(90deg) translateY(-100px);
+    transform: rotate(90deg) translateY(0px) translateX(50px);
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 400px;
+}
+
+.second_block .scroll_top .Boy #img6{
+    padding-left: 50px;
 }
 
 .second_block .scroll_top .Dungeon{
-    transform: rotate(90deg) translateY(-100px);
+    transform: rotate(90deg) translateY(0px) translateX(50px);
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 400px;
 }
 
 .second_block .scroll_top .Master{
-    transform: rotate(90deg) translateY(-100px);
+    transform: rotate(90deg) translateY(0px) translateX(50px);
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 400px;
 }
 
 .second_block .scroll_top .Boss{
-    transform: rotate(90deg) translateY(-100px);
+    transform: rotate(90deg) translateY(0px) translateX(50px);
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 400px;
 }
