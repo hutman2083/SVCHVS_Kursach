@@ -1,0 +1,19 @@
+body{
+    background-color: #4F4444;
+}
+
+
+.home{
+    text-decoration: none;
+    color: white;
+    margin-left: 1700px;
+    font-size: 40px;
+}
+
+hr{
+    
+    width: 2000px;
+    background-color: #FA0000;
+    border-color: #FA0000;
+    height: 5px;
+}
