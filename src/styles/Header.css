@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Nova+Cut&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Nova Cut', cursive;
+}
+
 .nav-link{
     color: white;
     

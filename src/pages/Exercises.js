@@ -15,15 +15,15 @@ export default class Exercises extends Component {
     <>
     <div>
       <Link to ="/" className='home'>Home</Link> 
-      <p>Упражнения</p>
+      <p className='exes'>Упражнения</p>
       <hr/>
     </div>
       <Container>
           <CardGroup className='cardgroup1'>
-            <Card>
+            <Card className='me-5'>
               <Card.Img variant='top' src={Ganteli} alt='Gan' style={{width:421,height:475}}>
               </Card.Img>
-              <Card.Body>
+              <Card.Body className='cardBody1'>
                 <Card.Title>
                   Поднятие гантели на прокачку предплечея 
                 </Card.Title>
