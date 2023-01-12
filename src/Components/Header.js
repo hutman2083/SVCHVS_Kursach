@@ -1,14 +1,15 @@
-
 import React, { Component } from 'react'
 import { Navbar,Container, Nav } from 'react-bootstrap'
 import Logo from '../images/Logo.png'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Main from '../pages/Main'
 import Exercises from '../pages/Exercises'
-import Login from '../pages/Login'
-import Services from '../pages/Services'
 import Trainers from '../pages/Trainers'
 import "../styles/Header.css"
+import Service from 'pages/Service'
+import Photos from 'pages/Photos'
+
+
 
 export default class Header extends Component {
   render() {
@@ -30,9 +31,9 @@ export default class Header extends Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav"/>
                     <Nav className="mr-auto">
-                        <Nav.Link href = "/login" >Login</Nav.Link>
                         <Nav.Link href = "/" >Главное</Nav.Link>
-                        <Nav.Link href = "/services">Услуги</Nav.Link>
+                        <Nav.Link href = "/services" >Запись</Nav.Link>
+                        <Nav.Link href = "/photos" >Фотоальбом</Nav.Link>
                         <Nav.Link href = "/trainers" className='train'>Наши тренера</Nav.Link>
                         <Nav.Link href = "/exercises" >Упражнения</Nav.Link>
                     </Nav>
@@ -41,9 +42,9 @@ export default class Header extends Component {
 
         <Router>
           <Routes>
-            <Route path = "/login" element = {<Login/>} />
             <Route path = "/" element = {<Main/>} />
-            <Route path = "/services" element = {<Services/>} />
+            <Route path = "/services" element = {<Service/>} />
+            <Route path = "/photos" element = {<Photos/>} />
             <Route path = "/trainers" element = {<Trainers/>} />
             <Route path = "/exercises" element = {<Exercises/>} />
           </Routes>

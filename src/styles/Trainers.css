@@ -1,0 +1,28 @@
+.img-responsive{
+    float:left;
+    margin-bottom: 27px;
+    margin-right: 46px;
+    margin-left: 58px;
+}
+
+.hrTrain{
+    width: 1518px;
+    background-color: #FA0000;
+    border-color: #FA0000;
+    height: 2px;
+    margin-bottom: 70px;
+    
+}
+
+.trainers{
+    font-size: 64px;
+    color: white;
+    margin-left: 42px;
+}
+
+.p1{
+    align:left;
+    font-size: 36px;
+    color: white;;
+}
+

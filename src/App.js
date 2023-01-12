@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-undef */
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header';
@@ -6,13 +5,20 @@ import Header from './Components/Header';
 
 
 
+
+
+
 function App() {
+  
+
   return (
+   <>
+   
      <div>
         <Header />
         
      </div>
-     
+   </>
   );
 }
 
