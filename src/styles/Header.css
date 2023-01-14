@@ -14,9 +14,20 @@
 .navbar{
     padding-bottom: 0;
     padding-top: 0;
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .train{
     width: 125px;
+}
+
+.brand{
+    margin-right: 440px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){    
+    .brand{
+        width: 720px;
+        margin-right: 200px;
+    }
 }

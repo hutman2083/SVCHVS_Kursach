@@ -35,3 +35,48 @@ hr{
     background-color: #4F4444;
     border-color: #4F4444;
 }
+
+.cont1{
+    margin-bottom: 50px;
+}
+
+.cardimage{
+    width:421;
+    height:475;
+}
+
+@media screen and (min-width:320px) and (max-width:720px) { 
+    body{
+        width: 1400px;
+    }  
+}
+
+@media  screen and (max-width:720px){
+    .cont1{
+        margin-left: 100px;
+        
+    }
+
+    .cardgr1{
+        width: 1400px;
+    }
+
+    .cardgroup2{
+        width: 1400px;
+    }
+}
+
+@media  screen and (max-width:320px){
+    .me-5{
+        width: 720px;
+    }
+
+    .cont1{
+        margin-left: 250px;
+    }
+
+    .cardimage{
+        width: 700px;
+        height: 700px;
+    }
+}

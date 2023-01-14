@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+
 import Trainer1 from "../images/train1.png"
 import Trainer2 from "../images/train2.png"
 import Trainer3 from "../images/train3.png"
@@ -11,7 +11,7 @@ export default class Trainers extends Component {
   render() {
     return (
       <>
-        <Link to ="/" className='home'>Home</Link> 
+        
         <p className='trainers' >Тренера</p>
         <hr className='hrTrain' />
         <img 

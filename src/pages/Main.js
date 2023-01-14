@@ -8,6 +8,7 @@ export default class Main extends Component {
       <>
       
       <CarouselBox />
+      <footer >BillyGym.2023</footer>
       </>
     )
   }

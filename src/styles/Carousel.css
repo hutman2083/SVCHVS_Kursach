@@ -1,0 +1,14 @@
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .carousel{
+        width: 1500px;
+        height: auto;
+    }
+
+    footer{
+        width: 1500px;
+        height: auto;
+    }
+
+    
+}
+

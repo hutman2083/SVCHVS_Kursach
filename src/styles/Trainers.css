@@ -26,3 +26,14 @@
     color: white;;
 }
 
+@media screen and (min-width:320px) and (max-width:720px) { 
+    body{
+        width: 1400px;
+    }  
+    .p1{
+        width: 1278px;
+    }
+    .img-responsive{
+        margin-bottom: 90px;
+    }
+}

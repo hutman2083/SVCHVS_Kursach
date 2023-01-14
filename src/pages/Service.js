@@ -11,7 +11,7 @@ class Service extends Component {
     super(props)
     this.state = {
         services: [
-            
+          
         ]
    }
    this.addService = this.addService.bind(this)
@@ -19,7 +19,8 @@ class Service extends Component {
    this.editService = this.editService.bind(this)
 }
   render() {
-    return <div>
+    
+    return <><div>
       <main>
         <Services services ={this.state.services} onEdit = {this.editService}onDelete = {this.deleteService}/>
       </main>
@@ -27,7 +28,9 @@ class Service extends Component {
         <AddService onAdd={this.addService}/>
       </aside>
     </div>
-  }
+    
+    </>
+    }
 
   addService(serviece) {
     const id = this.state.services.length + 1;

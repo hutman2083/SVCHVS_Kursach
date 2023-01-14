@@ -4,11 +4,12 @@ import Homeimage from '../images/Home.png';
 import Gymimage from '../images/Gym.jpg';
 import Trainersimage from '../images/Trainers.jpeg';
 import Exercisesimage from '../images/Exercises.jpg';
+import '../styles/Carousel.css'
 
 export default class CarouselBox extends Component {
   render() {
     return (
-      <Carousel>
+      <Carousel className='carousel'>
         <Carousel.Item>
             <img
                 className="d-block w-100"

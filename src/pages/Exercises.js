@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container,Card,Button,CardGroup} from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+
 import Ganteli from "../images/gan1.png"
 import Ganteli2 from "../images/gan2.png"
 import Ganteli3 from "../images/gan3.png"
@@ -14,14 +14,14 @@ export default class Exercises extends Component {
     return (
     <>
     <div>
-      <Link to ="/" className='home'>Home</Link> 
+      
       <p className='exes'>Упражнения</p>
       <hr/>
     </div>
-      <Container>
-          <CardGroup >
+      <Container className='cont1'>
+          <CardGroup className='cardgr1'>
             <Card className='me-5'>
-              <Card.Img variant='top' src={Ganteli} alt='Gan' style={{width:421,height:475}}>
+              <Card.Img variant='top' src={Ganteli} alt='Gan' className="cardimage">
               </Card.Img>
               <Card.Body className='cardBody'>
                 <Card.Title>
@@ -31,7 +31,7 @@ export default class Exercises extends Component {
               </Card.Body>
             </Card>
             <Card className='me-5'>
-              <Card.Img variant='top' src={Ganteli2} alt='Gan' style={{width:421,height:475}}>
+              <Card.Img variant='top' src={Ganteli2} alt='Gan' className="cardimage">
               </Card.Img>
               <Card.Body className='cardBody'>
                 <Card.Title>
@@ -42,7 +42,7 @@ export default class Exercises extends Component {
               </Card.Body>
             </Card>
             <Card className='me-5'>
-              <Card.Img variant='top' src={Ganteli3} alt='Gan' style={{width:421,height:475}}>
+              <Card.Img variant='top' src={Ganteli3} alt='Gan' className="cardimage">
               </Card.Img>
               <Card.Body className='cardBody'>
                 <Card.Title>
@@ -54,7 +54,7 @@ export default class Exercises extends Component {
             </CardGroup>
             <CardGroup className='cardgroup2'>
             <Card className='me-5'>
-              <Card.Img variant='top' src={Ganteli4} alt='Gan' style={{width:421,height:475}}>
+              <Card.Img variant='top' src={Ganteli4} alt='Gan' className="cardimage">
               </Card.Img>
               <Card.Body className='cardBody'>
                 <Card.Title>
@@ -64,7 +64,7 @@ export default class Exercises extends Component {
               </Card.Body>
             </Card>
             <Card className='me-5'>
-              <Card.Img variant='top' src={Ganteli5} alt='Gan' style={{width:421,height:475}}>
+              <Card.Img variant='top' src={Ganteli5} alt='Gan' className="cardimage">
               </Card.Img>
               <Card.Body className='cardBody'>
                 <Card.Title>
@@ -74,7 +74,7 @@ export default class Exercises extends Component {
               </Card.Body>
             </Card>
             <Card className='me-5'>
-              <Card.Img variant='top' src={Ganteli6} alt='Gan' style={{width:421,height:475}}>
+              <Card.Img variant='top' src={Ganteli6} alt='Gan' className="cardimage">
               </Card.Img>
               <Card.Body className='cardBody'>
                 <Card.Title>
@@ -85,7 +85,7 @@ export default class Exercises extends Component {
             </Card>
             </CardGroup>
         </Container>
-        
+        <footer >BillyGym.2023</footer>
       
     </>
       

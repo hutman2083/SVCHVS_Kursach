@@ -15,10 +15,9 @@ export default class Header extends Component {
   render() {
     return (
         <>
-        <Navbar collapseOnSelect expand = "sm" >
+        <Navbar >
             <Container style={{marginLeft:0,marginRight:0,paddingBottom:0,paddingLeft:0} }>
-                <Navbar.Brand href="/" style={{paddingBottom:0,paddingTop:0,marginLeft:0,marginRight:500
-                }}>
+                <Navbar.Brand className ="brand" href="/">
                     <img 
                         src={Logo}
                         height="100"
