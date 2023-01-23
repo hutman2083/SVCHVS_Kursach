@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import Trainer1 from "../images/train1.png"
 import Trainer2 from "../images/train2.png"
 import Trainer3 from "../images/train3.png"

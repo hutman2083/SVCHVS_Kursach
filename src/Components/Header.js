@@ -15,8 +15,8 @@ export default class Header extends Component {
   render() {
     return (
         <>
-        <Navbar >
-            <Container style={{marginLeft:0,marginRight:0,paddingBottom:0,paddingLeft:0} }>
+        <Navbar className='navbar'>
+            <Container className="cont" style={{marginLeft:0,marginRight:0,paddingBottom:0,paddingLeft:0} }>
                 <Navbar.Brand className ="brand" href="/">
                     <img 
                         src={Logo}

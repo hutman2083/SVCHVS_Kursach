@@ -71,7 +71,7 @@ aside form button:hover {
     transform: scale(1.01);
 }
 
-@media screen and (min-width:320px) and (max-width:720px) { 
+@media screen and (min-width:320px) and (max-width:768px) { 
     body{
         width: 1400px;
     }  

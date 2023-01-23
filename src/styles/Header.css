@@ -26,8 +26,13 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 720px){    
-    .brand{
-        width: 720px;
-        margin-right: 200px;
+   
+
+    .cont{
+        width: 1280;
+    }
+
+    .navbar{
+        width: 1280px;
     }
 }

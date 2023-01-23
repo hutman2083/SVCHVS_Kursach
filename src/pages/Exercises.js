@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Container,Card,Button,CardGroup} from 'react-bootstrap'
-
 import Ganteli from "../images/gan1.png"
 import Ganteli2 from "../images/gan2.png"
 import Ganteli3 from "../images/gan3.png"

@@ -6,14 +6,22 @@ import AddService from 'Components/AddService'
 
 
 
+
 class Service extends Component {
   constructor(props) {
     super(props)
+
     this.state = {
-        services: [
-          
-        ]
-   }
+      services: [
+        {
+          "firstname":"Kirill",
+          "lastname":"Alexandrov",
+          "price":"50",
+          "trainernames":"Khalif"
+        }
+      ]
+    }
+
    this.addService = this.addService.bind(this)
    this.deleteService = this.deleteService.bind(this)
    this.editService = this.editService.bind(this)
